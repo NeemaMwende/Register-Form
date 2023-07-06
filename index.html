@@ -16,10 +16,12 @@
         .container 
         {
             box-sizing: border-box;
+            width: 700px;
             background-color: rgb(112, 145, 206);
             padding: 50px;
-            justify-content: space-between;
-            line-height: 30px;   
+            justify-content: center;
+            line-height: 30px; 
+              
         }
         h2
         {
@@ -30,13 +32,21 @@
         }
         .btn
         {
-            width: 200px;     
+            width: 500px;     
+            margin-right: 00px;
+            margin-left: 50px;
+            margin-bottom: 30px;
+            margin-top: 30px;
             
         }
         .btn:hover
         {
             color: red;
             background-color: rgb(71, 66, 83);
+        }
+        .button 
+        {
+            display: flex;
         }
     </style>
 </head>
@@ -85,8 +95,10 @@
                                             <div class="invalid-feedback">Please Enter Your First Name</div>
                                         </div>
                                                 
-
+                                        <div class="button"> 
                                         <input type="submit" value="submit" class="btn btn-primary ">
+                                        <input type="submit" value="Cancel" class="btn btn-primary ">
+                                    </div>
                     </div>
                 </form>
             </div>
